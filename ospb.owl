@@ -1,0 +1,4018 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="urn:absolute:ospb.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="urn:absolute:ospb.owl">
+    <Prefix name="" IRI="urn:absolute:ospb.owl"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Date: 22. Nov 2021</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="no">Ontologi for Sepsis Perifert venekateterrelaterte Blodstrømsinfeksjoner (OSPB). Foreløpig arbeid med å konvertere sesjon 4 annoteringsveiledning til en ontologi for tidlige sepsis-tegn.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Ontology for Sepsis Peripheral intravenous catheter-related Bloodstream infections (OSPB). Preliminary work towards converting the session 4 annotation guideline to an ontology for early sepsis signs.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Administrasjon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Albue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ankel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ankom_med_ambulanse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arteriekateter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bevegelseshemming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biometrisk_identifikator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blodig"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blodprøve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blodtrykk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blodverføring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blood_culture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blærekateter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blødning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bytt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Descriptive_sign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enhet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enhetsnummer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enhetstegn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epidural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fjerning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flebitis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fukt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fødselsnummer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generelt_IV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geografiske_data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hardhet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Helsepersonell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hemodialyse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hemodialysekateter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hickman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hodepine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hofte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hoven"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hånd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Håndledd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IP_adresse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IV_antibiotika"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IV_cellegift"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IV_medisiner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IV_næringsstoff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IV_væske"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IV_væsker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infeksjon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infusjon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Injeksjon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Innleggelse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intradermalt_injeksjon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intramuskulært_injeksjon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intraosseous_device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intraossøs_infusjon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intravenøst_infusjon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intravenøst_injeksjon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kateter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kateter_prosedyre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kirurgi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kjøretøy_identifikator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kløende"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kontonummer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kroppsdel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kroppstemp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kvalme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lab_result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lekkasje"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leukocyte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Limb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lår"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Midline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Navle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nekrose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nettadresse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nummer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oral_medisinering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organdel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Overarm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PICC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pasient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pasientsymptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perifert_venekateter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_sign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plassering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prosedyre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prøve-_eller_testnummer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psykose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pumpe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purulens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Respirasjons_frekvens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rygg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rød"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rør"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Selvpåført_injeksjon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Selvseponert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensitv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sentralt_venekateter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seponert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sepsis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skrubbsår"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skylle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slektning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smerte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smertepumpe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snittsår"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stikksår"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subkutant_infusjon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subkutant_injeksjon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Svimmel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sår"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tegn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Telefonnummer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tid_og_dato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Torso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treveiskran"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Underarm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VAS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Varm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ven"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Venekateter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ventiler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitale_Livstegn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Væske"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bevissthetsnivå"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#e-post"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#infusjonssett"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#innstikksted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nevrologisk_og_fysiologisk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ødem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ømhet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CRP;_C-reaktivt_protein"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Caused_by_device"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Caused_by_procedure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Device_located_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Forårsaket_av"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Observation_located_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Person_har"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Person_has_device"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Person_has_location"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Person_has_observation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Person_has_procedure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Procedure_located_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Prosedyre_bruker"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Lokalisert_ved/på/i"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alvorlighetsgrad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Anatomical_position"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Avstand"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BSI_relatert"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Bandasje"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Conscious_states"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Enhet_data_property"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Farge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Feil_handling"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Feil_på_enheten_data_property"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Hel_data_property"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Ikke_relatert_til_kateter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Infeksjonsrelatert"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Kateterrelatert"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Kroppstemperaturområde"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nav"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Negasjon"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PVK_relatert"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Person_data_property"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Plassering_data_property"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Prosedyre_data_property"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sensitiv"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sepsis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Severity_blood_pressure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Severity_pulse"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Severity_respiratory_rate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Side_FB"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Side_VH"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tegn_data_property"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PIVC_device"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#body_temp_hyperthemia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hand_right"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#infusion_procedure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient_Kari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient_Ola"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient_person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pulse_high"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#red_sign"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#swollen_sign"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="rdf:PlainLiteral"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Administrasjon"/>
+        <Class IRI="#Prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Albue"/>
+        <Class IRI="#Arm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ankel"/>
+        <Class IRI="#Bein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ankom_med_ambulanse"/>
+        <Class IRI="#Prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arm"/>
+        <Class IRI="#Limb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arteriekateter"/>
+        <Class IRI="#Kateter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bein"/>
+        <Class IRI="#Limb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bevegelseshemming"/>
+        <Class IRI="#nevrologisk_og_fysiologisk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biometrisk_identifikator"/>
+        <Class IRI="#Sensitv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blodig"/>
+        <Class IRI="#Descriptive_sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blodprøve"/>
+        <Class IRI="#Prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blodtrykk"/>
+        <Class IRI="#Vitale_Livstegn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blodverføring"/>
+        <Class IRI="#Generelt_IV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blood_culture"/>
+        <Class IRI="#Lab_result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blærekateter"/>
+        <Class IRI="#Kateter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blødning"/>
+        <Class IRI="#Descriptive_sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bytt"/>
+        <Class IRI="#Kateter_prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Descriptive_sign"/>
+        <Class IRI="#Tegn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagnosis"/>
+        <Class IRI="#Tegn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enhetsnummer"/>
+        <Class IRI="#Nummer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enhetstegn"/>
+        <Class IRI="#Observation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epidural"/>
+        <Class IRI="#Kateter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fjerning"/>
+        <Class IRI="#Kateter_prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flebitis"/>
+        <Class IRI="#Diagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fot"/>
+        <Class IRI="#Bein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fukt"/>
+        <Class IRI="#Enhetstegn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fødselsnummer"/>
+        <Class IRI="#Nummer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generelt_IV"/>
+        <Class IRI="#Administrasjon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geografiske_data"/>
+        <Class IRI="#Sensitv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hals"/>
+        <Class IRI="#Kroppsdel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hardhet"/>
+        <Class IRI="#Descriptive_sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Helsepersonell"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hemodialyse"/>
+        <Class IRI="#Prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hemodialysekateter"/>
+        <Class IRI="#Venekateter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hickman"/>
+        <Class IRI="#Venekateter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hode"/>
+        <Class IRI="#Kroppsdel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hodepine"/>
+        <Class IRI="#Pasientsymptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hofte"/>
+        <Class IRI="#Bein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hoven"/>
+        <Class IRI="#Descriptive_sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hud"/>
+        <Class IRI="#Organdel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hånd"/>
+        <Class IRI="#Arm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Håndledd"/>
+        <Class IRI="#Arm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IP_adresse"/>
+        <Class IRI="#Sensitv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IV_antibiotika"/>
+        <Class IRI="#IV_medisiner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IV_cellegift"/>
+        <Class IRI="#IV_medisiner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IV_medisiner"/>
+        <Class IRI="#Generelt_IV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IV_næringsstoff"/>
+        <Class IRI="#IV_væsker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IV_væske"/>
+        <Class IRI="#IV_væsker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IV_væsker"/>
+        <Class IRI="#Generelt_IV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infeksjon"/>
+        <Class IRI="#Diagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infusjon"/>
+        <Class IRI="#Prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Injeksjon"/>
+        <Class IRI="#Prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Innleggelse"/>
+        <Class IRI="#Kateter_prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intradermalt_injeksjon"/>
+        <Class IRI="#Injeksjon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intramuskulært_injeksjon"/>
+        <Class IRI="#Injeksjon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intraosseous_device"/>
+        <Class IRI="#Kateter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intraossøs_infusjon"/>
+        <Class IRI="#Infusjon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intravenøst_infusjon"/>
+        <Class IRI="#Infusjon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intravenøst_injeksjon"/>
+        <Class IRI="#Injeksjon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kateter"/>
+        <Class IRI="#Enhet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kateter_prosedyre"/>
+        <Class IRI="#Prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kirurgi"/>
+        <Class IRI="#Prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kjøretøy_identifikator"/>
+        <Class IRI="#Sensitv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kløende"/>
+        <Class IRI="#Pasientsymptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kontonummer"/>
+        <Class IRI="#Nummer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kroppsdel"/>
+        <Class IRI="#Plassering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kroppstemp"/>
+        <Class IRI="#Vitale_Livstegn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kvalme"/>
+        <Class IRI="#Pasientsymptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lab_result"/>
+        <Class IRI="#Tegn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lekkasje"/>
+        <Class IRI="#Enhetstegn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leukocyte"/>
+        <Class IRI="#Lab_result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Limb"/>
+        <Class IRI="#Kroppsdel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lår"/>
+        <Class IRI="#Bein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Midline"/>
+        <Class IRI="#Venekateter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Navle"/>
+        <Class IRI="#Torso"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nekrose"/>
+        <Class IRI="#Diagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nettadresse"/>
+        <Class IRI="#Sensitv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nummer"/>
+        <Class IRI="#Sensitv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oral_medisinering"/>
+        <Class IRI="#Administrasjon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organdel"/>
+        <Class IRI="#Plassering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overarm"/>
+        <Class IRI="#Arm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PICC"/>
+        <Class IRI="#Venekateter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PID"/>
+        <Class IRI="#Nummer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pasient"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pasientsymptom"/>
+        <Class IRI="#Observation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perifert_venekateter"/>
+        <Class IRI="#Venekateter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_sign"/>
+        <Class IRI="#Tegn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prøve-_eller_testnummer"/>
+        <Class IRI="#Nummer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psykose"/>
+        <Class IRI="#nevrologisk_og_fysiologisk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puls"/>
+        <Class IRI="#Vitale_Livstegn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pumpe"/>
+        <Class IRI="#Enhet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Purulens"/>
+        <Class IRI="#Descriptive_sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pus"/>
+        <Class IRI="#Descriptive_sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiology"/>
+        <Class IRI="#Prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Respirasjons_frekvens"/>
+        <Class IRI="#Vitale_Livstegn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rygg"/>
+        <Class IRI="#Torso"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rød"/>
+        <Class IRI="#Descriptive_sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rør"/>
+        <Class IRI="#Enhet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Selvpåført_injeksjon"/>
+        <Class IRI="#Injeksjon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Selvseponert"/>
+        <Class IRI="#Kateter_prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sentralt_venekateter"/>
+        <Class IRI="#Venekateter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seponert"/>
+        <Class IRI="#Kateter_prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sepsis"/>
+        <Class IRI="#Diagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skrubbsår"/>
+        <Class IRI="#Sår"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skylle"/>
+        <Class IRI="#Kateter_prosedyre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slektning"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smerte"/>
+        <Class IRI="#Pasientsymptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smertepumpe"/>
+        <Class IRI="#Kateter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snittsår"/>
+        <Class IRI="#Sår"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stikksår"/>
+        <Class IRI="#Sår"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subkutant_infusjon"/>
+        <Class IRI="#Infusjon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subkutant_injeksjon"/>
+        <Class IRI="#Injeksjon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Svimmel"/>
+        <Class IRI="#Pasientsymptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sår"/>
+        <Class IRI="#Physical_sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tegn"/>
+        <Class IRI="#Observation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Telefonnummer"/>
+        <Class IRI="#Nummer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tid_og_dato"/>
+        <Class IRI="#Sensitv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Torso"/>
+        <Class IRI="#Kroppsdel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treveiskran"/>
+        <Class IRI="#Ventiler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Underarm"/>
+        <Class IRI="#Arm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VAS"/>
+        <Class IRI="#Venekateter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Varm"/>
+        <Class IRI="#Descriptive_sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ven"/>
+        <Class IRI="#Organdel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Venekateter"/>
+        <Class IRI="#Kateter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ventiler"/>
+        <Class IRI="#Enhet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitale_Livstegn"/>
+        <Class IRI="#Physical_sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Væske"/>
+        <Class IRI="#Enhetstegn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bevissthetsnivå"/>
+        <Class IRI="#Vitale_Livstegn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#e-post"/>
+        <Class IRI="#Sensitv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#infusjonssett"/>
+        <Class IRI="#Enhet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#innstikksted"/>
+        <Class IRI="#Plassering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nevrologisk_og_fysiologisk"/>
+        <Class IRI="#Physical_sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ødem"/>
+        <Class IRI="#Descriptive_sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ømhet"/>
+        <Class IRI="#Descriptive_sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CRP;_C-reaktivt_protein"/>
+        <Class IRI="#Lab_result"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Administrasjon"/>
+        <Class IRI="#Ankom_med_ambulanse"/>
+        <Class IRI="#Blodprøve"/>
+        <Class IRI="#Hemodialyse"/>
+        <Class IRI="#Infusjon"/>
+        <Class IRI="#Injeksjon"/>
+        <Class IRI="#Kateter_prosedyre"/>
+        <Class IRI="#Kirurgi"/>
+        <Class IRI="#Radiology"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Albue"/>
+        <Class IRI="#Hånd"/>
+        <Class IRI="#Håndledd"/>
+        <Class IRI="#Overarm"/>
+        <Class IRI="#Underarm"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ankel"/>
+        <Class IRI="#Fot"/>
+        <Class IRI="#Hofte"/>
+        <Class IRI="#Lår"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Arm"/>
+        <Class IRI="#Bein"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Arteriekateter"/>
+        <Class IRI="#Blærekateter"/>
+        <Class IRI="#Epidural"/>
+        <Class IRI="#Intraosseous_device"/>
+        <Class IRI="#Smertepumpe"/>
+        <Class IRI="#Venekateter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bevegelseshemming"/>
+        <Class IRI="#Psykose"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Blodig"/>
+        <Class IRI="#Blødning"/>
+        <Class IRI="#Hardhet"/>
+        <Class IRI="#Hoven"/>
+        <Class IRI="#Purulens"/>
+        <Class IRI="#Pus"/>
+        <Class IRI="#Rød"/>
+        <Class IRI="#Varm"/>
+        <Class IRI="#Ødem"/>
+        <Class IRI="#Ømhet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Blodtrykk"/>
+        <Class IRI="#Kroppstemp"/>
+        <Class IRI="#Puls"/>
+        <Class IRI="#Respirasjons_frekvens"/>
+        <Class IRI="#bevissthetsnivå"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Blodverføring"/>
+        <Class IRI="#IV_medisiner"/>
+        <Class IRI="#IV_væsker"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Blood_culture"/>
+        <Class IRI="#Leukocyte"/>
+        <Class IRI="#CRP;_C-reaktivt_protein"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bytt"/>
+        <Class IRI="#Fjerning"/>
+        <Class IRI="#Innleggelse"/>
+        <Class IRI="#Selvseponert"/>
+        <Class IRI="#Seponert"/>
+        <Class IRI="#Skylle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Descriptive_sign"/>
+        <Class IRI="#Diagnosis"/>
+        <Class IRI="#Lab_result"/>
+        <Class IRI="#Physical_sign"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Enhet"/>
+        <Class IRI="#Hel"/>
+        <Class IRI="#Observation"/>
+        <Class IRI="#Person"/>
+        <Class IRI="#Plassering"/>
+        <Class IRI="#Prosedyre"/>
+        <Class IRI="#Sensitv"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Enhetsnummer"/>
+        <Class IRI="#Fødselsnummer"/>
+        <Class IRI="#Kontonummer"/>
+        <Class IRI="#PID"/>
+        <Class IRI="#Prøve-_eller_testnummer"/>
+        <Class IRI="#Telefonnummer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Enhetstegn"/>
+        <Class IRI="#Pasientsymptom"/>
+        <Class IRI="#Tegn"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Flebitis"/>
+        <Class IRI="#Infeksjon"/>
+        <Class IRI="#Nekrose"/>
+        <Class IRI="#Sepsis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fukt"/>
+        <Class IRI="#Lekkasje"/>
+        <Class IRI="#Væske"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Generelt_IV"/>
+        <Class IRI="#Oral_medisinering"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hals"/>
+        <Class IRI="#Hode"/>
+        <Class IRI="#Limb"/>
+        <Class IRI="#Torso"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Helsepersonell"/>
+        <Class IRI="#Pasient"/>
+        <Class IRI="#Slektning"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hemodialysekateter"/>
+        <Class IRI="#Hickman"/>
+        <Class IRI="#Midline"/>
+        <Class IRI="#PICC"/>
+        <Class IRI="#Perifert_venekateter"/>
+        <Class IRI="#Sentralt_venekateter"/>
+        <Class IRI="#VAS"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hodepine"/>
+        <Class IRI="#Kløende"/>
+        <Class IRI="#Kvalme"/>
+        <Class IRI="#Smerte"/>
+        <Class IRI="#Svimmel"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IV_antibiotika"/>
+        <Class IRI="#IV_cellegift"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IV_næringsstoff"/>
+        <Class IRI="#IV_væske"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Intradermalt_injeksjon"/>
+        <Class IRI="#Intramuskulært_injeksjon"/>
+        <Class IRI="#Intravenøst_injeksjon"/>
+        <Class IRI="#Selvpåført_injeksjon"/>
+        <Class IRI="#Subkutant_injeksjon"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Intraossøs_infusjon"/>
+        <Class IRI="#Intravenøst_infusjon"/>
+        <Class IRI="#Subkutant_infusjon"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Kateter"/>
+        <Class IRI="#Pumpe"/>
+        <Class IRI="#Rør"/>
+        <Class IRI="#Ventiler"/>
+        <Class IRI="#infusjonssett"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Kroppsdel"/>
+        <Class IRI="#Organdel"/>
+        <Class IRI="#innstikksted"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Navle"/>
+        <Class IRI="#Rygg"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Skrubbsår"/>
+        <Class IRI="#Snittsår"/>
+        <Class IRI="#Stikksår"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Sår"/>
+        <Class IRI="#Vitale_Livstegn"/>
+        <Class IRI="#nevrologisk_og_fysiologisk"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Perifert_venekateter"/>
+        <NamedIndividual IRI="#PIVC_device"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kroppstemp"/>
+        <NamedIndividual IRI="#body_temp_hyperthemia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hånd"/>
+        <NamedIndividual IRI="#hand_right"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Infusjon"/>
+        <NamedIndividual IRI="#infusion_procedure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pasient"/>
+        <NamedIndividual IRI="#patient_Kari"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pasient"/>
+        <NamedIndividual IRI="#patient_Ola"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pasient"/>
+        <NamedIndividual IRI="#patient_person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rød"/>
+        <NamedIndividual IRI="#red_sign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hoven"/>
+        <NamedIndividual IRI="#swollen_sign"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Device_located_at"/>
+        <NamedIndividual IRI="#PIVC_device"/>
+        <NamedIndividual IRI="#hand_right"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Procedure_located_at"/>
+        <NamedIndividual IRI="#infusion_procedure"/>
+        <NamedIndividual IRI="#hand_right"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Person_has_device"/>
+        <NamedIndividual IRI="#patient_Kari"/>
+        <NamedIndividual IRI="#PIVC_device"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Person_has_location"/>
+        <NamedIndividual IRI="#patient_Ola"/>
+        <NamedIndividual IRI="#hand_right"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Person_has_observation"/>
+        <NamedIndividual IRI="#patient_person"/>
+        <NamedIndividual IRI="#body_temp_hyperthemia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Person_has_observation"/>
+        <NamedIndividual IRI="#patient_person"/>
+        <NamedIndividual IRI="#pulse_high"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Caused_by_device"/>
+        <NamedIndividual IRI="#red_sign"/>
+        <NamedIndividual IRI="#PIVC_device"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Caused_by_device"/>
+        <NamedIndividual IRI="#swollen_sign"/>
+        <NamedIndividual IRI="#PIVC_device"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kroppstemperaturområde"/>
+        <NamedIndividual IRI="#body_temp_hyperthemia"/>
+        <Literal xml:lang="no">Hypertermi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kroppstemperaturområde"/>
+        <NamedIndividual IRI="#body_temp_hyperthemia"/>
+        <Literal xml:lang="en">Hyperthermia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Side_VH"/>
+        <NamedIndividual IRI="#hand_right"/>
+        <Literal xml:lang="no">Høyre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Side_VH"/>
+        <NamedIndividual IRI="#hand_right"/>
+        <Literal xml:lang="en">Right</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alvorlighetsgrad"/>
+        <NamedIndividual IRI="#pulse_high"/>
+        <Literal xml:lang="no">Høy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Severity_pulse"/>
+        <NamedIndividual IRI="#pulse_high"/>
+        <Literal xml:lang="en">High</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Caused_by_device"/>
+        <ObjectProperty IRI="#Forårsaket_av"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Caused_by_procedure"/>
+        <ObjectProperty IRI="#Forårsaket_av"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Device_located_at"/>
+        <ObjectProperty IRI="#Lokalisert_ved/på/i"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Observation_located_at"/>
+        <ObjectProperty IRI="#Lokalisert_ved/på/i"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Person_has_device"/>
+        <ObjectProperty IRI="#Person_har"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Person_has_location"/>
+        <ObjectProperty IRI="#Person_har"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Person_has_observation"/>
+        <ObjectProperty IRI="#Person_har"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Person_has_procedure"/>
+        <ObjectProperty IRI="#Person_har"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Procedure_located_at"/>
+        <ObjectProperty IRI="#Lokalisert_ved/på/i"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Device_located_at"/>
+        <Class IRI="#Enhet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Forårsaket_av"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Observation_located_at"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Person_har"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Procedure_located_at"/>
+        <Class IRI="#Prosedyre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Prosedyre_bruker"/>
+        <Class IRI="#Prosedyre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Caused_by_device"/>
+        <Class IRI="#Enhet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Caused_by_procedure"/>
+        <Class IRI="#Prosedyre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Person_has_device"/>
+        <Class IRI="#Enhet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Person_has_location"/>
+        <Class IRI="#Plassering"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Person_has_observation"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Person_has_procedure"/>
+        <Class IRI="#Prosedyre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Prosedyre_bruker"/>
+        <Class IRI="#Enhet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Lokalisert_ved/på/i"/>
+        <Class IRI="#Plassering"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Alvorlighetsgrad"/>
+        <DataProperty IRI="#Tegn_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Anatomical_position"/>
+        <DataProperty IRI="#Plassering_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Avstand"/>
+        <DataProperty IRI="#Plassering_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#BSI_relatert"/>
+        <DataProperty IRI="#Hel_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Bandasje"/>
+        <DataProperty IRI="#Enhet_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Conscious_states"/>
+        <DataProperty IRI="#Tegn_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Farge"/>
+        <DataProperty IRI="#Enhet_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Feil_handling"/>
+        <DataProperty IRI="#Prosedyre_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Feil_på_enheten_data_property"/>
+        <DataProperty IRI="#Hel_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Ikke_relatert_til_kateter"/>
+        <DataProperty IRI="#Enhet_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Infeksjonsrelatert"/>
+        <DataProperty IRI="#Hel_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Kateterrelatert"/>
+        <DataProperty IRI="#Hel_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Kroppstemperaturområde"/>
+        <DataProperty IRI="#Tegn_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Nav"/>
+        <DataProperty IRI="#Person_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#PVK_relatert"/>
+        <DataProperty IRI="#Hel_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Person_data_property"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Plassering_data_property"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Sensitiv"/>
+        <DataProperty IRI="#Hel_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Sepsis"/>
+        <DataProperty IRI="#Hel_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Severity_blood_pressure"/>
+        <DataProperty IRI="#Alvorlighetsgrad"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Severity_pulse"/>
+        <DataProperty IRI="#Alvorlighetsgrad"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Severity_respiratory_rate"/>
+        <DataProperty IRI="#Alvorlighetsgrad"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Side_FB"/>
+        <DataProperty IRI="#Plassering_data_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Side_VH"/>
+        <DataProperty IRI="#Plassering_data_property"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Avstand"/>
+        <Class IRI="#Plassering"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#BSI_relatert"/>
+        <Class IRI="#Hel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Bandasje"/>
+        <Class IRI="#Enhet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Conscious_states"/>
+        <Class IRI="#bevissthetsnivå"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Farge"/>
+        <Class IRI="#Perifert_venekateter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Feil_handling"/>
+        <Class IRI="#Infusjon"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Feil_på_enheten_data_property"/>
+        <Class IRI="#Enhet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Feil_på_enheten_data_property"/>
+        <Class IRI="#Hel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hel_data_property"/>
+        <Class IRI="#Hel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Infeksjonsrelatert"/>
+        <Class IRI="#Hel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Kateterrelatert"/>
+        <Class IRI="#Hel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Kroppstemperaturområde"/>
+        <Class IRI="#Kroppstemp"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nav"/>
+        <Class IRI="#Sensitv"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Negasjon"/>
+        <Class IRI="#Enhet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Negasjon"/>
+        <Class IRI="#Plassering"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Negasjon"/>
+        <Class IRI="#Prosedyre"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Negasjon"/>
+        <Class IRI="#Sensitv"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Negasjon"/>
+        <Class IRI="#Tegn"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PVK_relatert"/>
+        <Class IRI="#Hel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Person_data_property"/>
+        <Class IRI="#Sensitv"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Plassering_data_property"/>
+        <Class IRI="#Plassering"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sensitiv"/>
+        <Class IRI="#Hel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sepsis"/>
+        <Class IRI="#Hel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Severity_blood_pressure"/>
+        <Class IRI="#Blodtrykk"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Severity_pulse"/>
+        <Class IRI="#Puls"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Severity_respiratory_rate"/>
+        <Class IRI="#Respirasjons_frekvens"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Side_FB"/>
+        <Class IRI="#Plassering"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Side_VH"/>
+        <Class IRI="#Plassering"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Tegn_data_property"/>
+        <Class IRI="#Tegn"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alvorlighetsgrad"/>
+        <DataUnionOf>
+            <DataOneOf>
+                <Literal xml:lang="en">High</Literal>
+                <Literal xml:lang="en">Low</Literal>
+                <Literal xml:lang="en">Normal</Literal>
+            </DataOneOf>
+            <DataOneOf>
+                <Literal xml:lang="no">Høy</Literal>
+                <Literal xml:lang="no">Lav</Literal>
+                <Literal xml:lang="no">Normal</Literal>
+            </DataOneOf>
+        </DataUnionOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Anatomical_position"/>
+        <DataUnionOf>
+            <DataUnionOf>
+                <DataOneOf>
+                    <Literal xml:lang="en">Back</Literal>
+                    <Literal xml:lang="en">Front</Literal>
+                </DataOneOf>
+                <DataOneOf>
+                    <Literal xml:lang="no">Bak</Literal>
+                    <Literal xml:lang="no">Foran</Literal>
+                </DataOneOf>
+            </DataUnionOf>
+            <DataUnionOf>
+                <DataOneOf>
+                    <Literal xml:lang="en">Distal</Literal>
+                    <Literal xml:lang="en">Halfway</Literal>
+                    <Literal xml:lang="en">Media</Literal>
+                    <Literal xml:lang="en">Proximal</Literal>
+                    <Literal xml:lang="en">Sideways</Literal>
+                </DataOneOf>
+                <DataOneOf>
+                    <Literal xml:lang="no">Distal</Literal>
+                    <Literal xml:lang="no">Halvveis</Literal>
+                    <Literal xml:lang="no">Medial</Literal>
+                    <Literal xml:lang="no">Proksimal</Literal>
+                    <Literal xml:lang="no">Sideveis</Literal>
+                </DataOneOf>
+            </DataUnionOf>
+            <DataUnionOf>
+                <DataOneOf>
+                    <Literal xml:lang="no">Høyre</Literal>
+                    <Literal xml:lang="no">Venstre</Literal>
+                </DataOneOf>
+                <DataOneOf>
+                    <Literal xml:lang="en">Left</Literal>
+                    <Literal xml:lang="en">Right</Literal>
+                </DataOneOf>
+            </DataUnionOf>
+        </DataUnionOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Avstand"/>
+        <DataUnionOf>
+            <DataOneOf>
+                <Literal xml:lang="en">Distal</Literal>
+                <Literal xml:lang="en">Halfway</Literal>
+                <Literal xml:lang="en">Media</Literal>
+                <Literal xml:lang="en">Proximal</Literal>
+                <Literal xml:lang="en">Sideways</Literal>
+            </DataOneOf>
+            <DataOneOf>
+                <Literal xml:lang="no">Distal</Literal>
+                <Literal xml:lang="no">Halvveis</Literal>
+                <Literal xml:lang="no">Medial</Literal>
+                <Literal xml:lang="no">Proksimal</Literal>
+                <Literal xml:lang="no">Sideveis</Literal>
+            </DataOneOf>
+        </DataUnionOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#BSI_relatert"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Conscious_states"/>
+        <DataOneOf>
+            <Literal xml:lang="en">Alert</Literal>
+            <Literal xml:lang="en">Confusion</Literal>
+            <Literal xml:lang="en">Painfully responsive</Literal>
+            <Literal xml:lang="en">Unresponsive</Literal>
+            <Literal xml:lang="en">Verbally responsive</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Farge"/>
+        <DataUnionOf>
+            <DataOneOf>
+                <Literal xml:lang="en">Blue</Literal>
+                <Literal xml:lang="en">Brown</Literal>
+                <Literal xml:lang="en">Gray</Literal>
+                <Literal xml:lang="en">Green</Literal>
+                <Literal xml:lang="en">Orange</Literal>
+                <Literal xml:lang="en">Pink</Literal>
+                <Literal xml:lang="en">Purple</Literal>
+                <Literal xml:lang="en">White</Literal>
+                <Literal xml:lang="en">Yellow</Literal>
+            </DataOneOf>
+            <DataOneOf>
+                <Literal xml:lang="no">Blå</Literal>
+                <Literal xml:lang="no">Brun</Literal>
+                <Literal xml:lang="no">Grå</Literal>
+                <Literal xml:lang="no">Grønn</Literal>
+                <Literal xml:lang="no">Gul</Literal>
+                <Literal xml:lang="no">Hvit</Literal>
+                <Literal xml:lang="no">Lilla</Literal>
+                <Literal xml:lang="no">Oransje</Literal>
+                <Literal xml:lang="no">Rosa</Literal>
+            </DataOneOf>
+        </DataUnionOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Feil_handling"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Feil_på_enheten_data_property"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Hel_data_property"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Infeksjonsrelatert"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Kateterrelatert"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Kroppstemperaturområde"/>
+        <DataUnionOf>
+            <DataOneOf>
+                <Literal xml:lang="no">Hypertermi</Literal>
+                <Literal xml:lang="no">Hypotermi</Literal>
+                <Literal xml:lang="no">Normal</Literal>
+            </DataOneOf>
+            <DataOneOf>
+                <Literal xml:lang="en">Hyperthermia</Literal>
+                <Literal xml:lang="en">Hypothermia</Literal>
+                <Literal xml:lang="en">Normal</Literal>
+            </DataOneOf>
+        </DataUnionOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nav"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Negasjon"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PVK_relatert"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sensitiv"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sepsis"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Side_FB"/>
+        <DataUnionOf>
+            <DataOneOf>
+                <Literal xml:lang="en">Back</Literal>
+                <Literal xml:lang="en">Front</Literal>
+            </DataOneOf>
+            <DataOneOf>
+                <Literal xml:lang="no">Bak</Literal>
+                <Literal xml:lang="no">Foran</Literal>
+            </DataOneOf>
+        </DataUnionOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Side_VH"/>
+        <DataUnionOf>
+            <DataOneOf>
+                <Literal xml:lang="no">Høyre</Literal>
+                <Literal xml:lang="no">Venstre</Literal>
+            </DataOneOf>
+            <DataOneOf>
+                <Literal xml:lang="en">Left</Literal>
+                <Literal xml:lang="en">Right</Literal>
+            </DataOneOf>
+        </DataUnionOf>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>3-person with pivc</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="urn:absolute:session4GuidelineToOntology.owl#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#Person_har"/>
+                <Variable IRI="urn:absolute:session4GuidelineToOntology.owl#p"/>
+                <Variable IRI="urn:absolute:session4GuidelineToOntology.owl#pivc"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Perifert_venekateter"/>
+                <Variable IRI="urn:absolute:session4GuidelineToOntology.owl#pivc"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Variable IRI="urn:absolute:session4GuidelineToOntology.owl#p"/>
+                <Variable IRI="urn:absolute:session4GuidelineToOntology.owl#pivc"/>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>1-person</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="urn:absolute:session4GuidelineToOntology.owl#p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Variable IRI="urn:absolute:session4GuidelineToOntology.owl#p"/>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>2-person and location</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="urn:absolute:session4GuidelineToOntology.owl#p"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Plassering"/>
+                <Variable IRI="urn:absolute:session4GuidelineToOntology.owl#l"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#Person_har"/>
+                <Variable IRI="urn:absolute:session4GuidelineToOntology.owl#p"/>
+                <Variable IRI="urn:absolute:session4GuidelineToOntology.owl#l"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
+                <Variable IRI="urn:absolute:session4GuidelineToOntology.owl#p"/>
+                <Variable IRI="urn:absolute:session4GuidelineToOntology.owl#l"/>
+            </BuiltInAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Administrasjon</IRI>
+        <Literal xml:lang="no">Administrasjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Administrasjon</IRI>
+        <Literal xml:lang="en">Administration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Albue</IRI>
+        <Literal xml:lang="no">Albue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Albue</IRI>
+        <Literal xml:lang="en">Elbow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Alvorlighetsgrad</IRI>
+        <Literal xml:lang="en">Severity Levels:
+1. High (Høy)
+2. Normal (Normal)
+3. Low (Lav)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Alvorlighetsgrad</IRI>
+        <Literal xml:lang="no">Alvorlighetsgrad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Alvorlighetsgrad</IRI>
+        <Literal xml:lang="en">Severity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ankel</IRI>
+        <Literal xml:lang="no">Ankel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ankel</IRI>
+        <Literal xml:lang="en">Ankle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ankom_med_ambulanse</IRI>
+        <Literal xml:lang="no">Ankom_med_ambulanse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ankom_med_ambulanse</IRI>
+        <Literal xml:lang="en">Arrived by Ambulance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Arm</IRI>
+        <Literal xml:lang="en">Arm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Arm</IRI>
+        <Literal xml:lang="no">Arm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Arteriekateter</IRI>
+        <Literal xml:lang="en">Arterial catheter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Arteriekateter</IRI>
+        <Literal xml:lang="no">Arteriekateter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Avstand</IRI>
+        <Literal xml:lang="en">Location of body parts away from center. 
+
+Options: 
+1. Proximal (Proksimal)
+2. Distal (Distal)
+3. Medial (Medial)
+4. Sideways (Sideveis)
+5. Halfway (Halvveis)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Avstand</IRI>
+        <Literal xml:lang="no">Avstand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Avstand</IRI>
+        <Literal xml:lang="en">Distance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BSI_relatert</IRI>
+        <Literal xml:lang="en">BSI_related</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BSI_relatert</IRI>
+        <Literal xml:lang="no">BSI_relatert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bandasje</IRI>
+        <Literal xml:lang="en">Bandage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bandasje</IRI>
+        <Literal xml:lang="no">Bandasje</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bein</IRI>
+        <Literal xml:lang="no">Bein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bein</IRI>
+        <Literal xml:lang="en">Leg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bevegelseshemming</IRI>
+        <Literal xml:lang="no">Bevegelseshemming</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bevegelseshemming</IRI>
+        <Literal xml:lang="en">Mobility_impairment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biometrisk_identifikator</IRI>
+        <Literal xml:lang="en">Biometric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biometrisk_identifikator</IRI>
+        <Literal xml:lang="no">Biometrisk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Blodig</IRI>
+        <Literal xml:lang="no">Blodig</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Blodig</IRI>
+        <Literal xml:lang="en">Bloody</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Blodprøve</IRI>
+        <Literal xml:lang="no">Blodprøve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Blodprøve</IRI>
+        <Literal xml:lang="en">Blood test</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Blodtrykk</IRI>
+        <Literal xml:lang="no">Blodtrykk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Blodtrykk</IRI>
+        <Literal xml:lang="en">Blood_pressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Blodverføring</IRI>
+        <Literal xml:lang="no">Blodverføring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Blodverføring</IRI>
+        <Literal xml:lang="en">Blood_transfusion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Blood_culture</IRI>
+        <Literal xml:lang="no">Blodkultur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Blood_culture</IRI>
+        <Literal xml:lang="en">Blood_culture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Blærekateter</IRI>
+        <Literal xml:lang="no">Blærekateter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Blærekateter</IRI>
+        <Literal xml:lang="en">Urinary catheter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Blødning</IRI>
+        <Literal xml:lang="en">Bleeding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Blødning</IRI>
+        <Literal xml:lang="no">Blødning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bytt</IRI>
+        <Literal xml:lang="no">Bytt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bytt</IRI>
+        <Literal xml:lang="en">Replace</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Conscious_states</IRI>
+        <Literal xml:lang="en">Level of consciousness based on NEWSII conscious state (Bevissthetsnivå) ACVPU https://ehandboken.ous-hf.no/document/78636
+
+
+Levels:
+1. Alert (Våken)
+2. Confusion (Forvirring)
+3. Verbally responsive (Verbalrespons, Reagerer på tiltale)
+4. Painfully responsive (Smerterespons, Reagerer ved smertestimulering)
+5. Unresponsive (Bevisstløs, Reagerer ikke på tale eller smertestimulering)
+
+https://sml.snl.no/bevissthetsforstyrrelse
+https://arketyper.no/ckm/archetypes/1078.36.2289</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Conscious_states</IRI>
+        <Literal xml:lang="no">Bevisste_tilstand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Conscious_states</IRI>
+        <Literal xml:lang="en">Conscious_state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Descriptive_sign</IRI>
+        <Literal xml:lang="en">Description of a sign, such as the color or shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Descriptive_sign</IRI>
+        <Literal xml:lang="no">Beskrivende tegn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Descriptive_sign</IRI>
+        <Literal xml:lang="en">Descriptive sign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Descriptive_sign</IRI>
+        <Literal xml:lang="en">qualitative sign from OGMS
+https://www.ebi.ac.uk/ols/ontologies/ogms/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOGMS_0000142</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Diagnosis</IRI>
+        <Literal xml:lang="no">Diagnose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Diagnosis</IRI>
+        <Literal xml:lang="en">Diagnosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Enhet</IRI>
+        <IRI>http://www.ontobee.org/ontology/NCIT?iri=http://purl.obolibrary.org/obo/NCIT_C16830</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Enhet</IRI>
+        <Literal xml:lang="en">Medical device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Enhet</IRI>
+        <Literal xml:lang="no">Medisk utstyr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Enhet_data_property</IRI>
+        <Literal xml:lang="en">Device_data_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Enhet_data_property</IRI>
+        <Literal xml:lang="no">Enhet_data_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Enhetsnummer</IRI>
+        <Literal xml:lang="en">Device_number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Enhetsnummer</IRI>
+        <Literal xml:lang="no">Enhetsnummer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Enhetstegn</IRI>
+        <Literal xml:lang="en">Device sign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Enhetstegn</IRI>
+        <Literal xml:lang="no">Enhetstegn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Epidural</IRI>
+        <Literal xml:lang="en">Epidural</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Epidural</IRI>
+        <Literal xml:lang="no">Epidural</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Farge</IRI>
+        <Literal xml:lang="en">Color of peripheral venous catheter (PIVC; perifert venekateter; PVK):
+1. Purple (Lilla)
+2. Yellow (Gul)
+3. Blue (Blå)
+4. Pink (Rosa)
+5. Green (Grønn)
+6. White (Hvit)
+7. Gray (Grå)
+8. Brown (Brun)
+9. Orange (Oransje)
+
+https://ehandboken.ous-hf.no/document/115280</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Farge</IRI>
+        <Literal xml:lang="en">Color_peripheral_venous_catheter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Farge</IRI>
+        <Literal xml:lang="no">Farge_perifert_venekateter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Feil_handling</IRI>
+        <Literal xml:lang="no">Feil_handling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Feil_handling</IRI>
+        <Literal xml:lang="en">Incorrect_action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Feil_på_enheten_data_property</IRI>
+        <Literal xml:lang="en">Device_malfunction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Feil_på_enheten_data_property</IRI>
+        <Literal xml:lang="no">Feil_på_enheten</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fjerning</IRI>
+        <Literal xml:lang="no">Fjerning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fjerning</IRI>
+        <Literal xml:lang="en">Removal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Flebitis</IRI>
+        <Literal xml:lang="no">Flebitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Flebitis</IRI>
+        <Literal xml:lang="en">Phlebitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Forårsaket_av</IRI>
+        <Literal xml:lang="en">Caused_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Forårsaket_av</IRI>
+        <Literal xml:lang="no">Forårsaket_av</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fot</IRI>
+        <Literal xml:lang="en">Foot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fot</IRI>
+        <Literal xml:lang="no">Fot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fukt</IRI>
+        <Literal xml:lang="no">Fukt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fukt</IRI>
+        <Literal xml:lang="en">Moisture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fødselsnummer</IRI>
+        <Literal xml:lang="en">Norwegian social security number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fødselsnummer</IRI>
+        <Literal xml:lang="no">Fødselsnummer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fødselsnummer</IRI>
+        <Literal xml:lang="en">Norwegian_birth_number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Generelt_IV</IRI>
+        <Literal xml:lang="en">General_IV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Generelt_IV</IRI>
+        <Literal xml:lang="no">Generelt_IV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Geografiske_data</IRI>
+        <Literal xml:lang="en">physical location </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Geografiske_data</IRI>
+        <Literal xml:lang="no">Geografiske_lokasjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Geografiske_data</IRI>
+        <Literal xml:lang="en">Geographic location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hals</IRI>
+        <Literal xml:lang="no">Hals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hals</IRI>
+        <Literal xml:lang="en">Neck</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hardhet</IRI>
+        <Literal xml:lang="no">Hardhet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hardhet</IRI>
+        <Literal xml:lang="en">Hardness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hel</IRI>
+        <Literal xml:lang="no">Notat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hel</IRI>
+        <Literal xml:lang="en">Note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hel_data_property</IRI>
+        <Literal xml:lang="no">Hel_data_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hel_data_property</IRI>
+        <Literal xml:lang="en">Whole_data_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Helsepersonell</IRI>
+        <Literal xml:lang="en">Care provider</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Helsepersonell</IRI>
+        <Literal xml:lang="en">Healthcare provider</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Helsepersonell</IRI>
+        <Literal xml:lang="no">Helsepersonell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hemodialyse</IRI>
+        <Literal xml:lang="no">Hemodialyse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hemodialyse</IRI>
+        <Literal xml:lang="en">Hemodialysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hemodialysekateter</IRI>
+        <Literal xml:lang="no">Hemodialysekateter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hemodialysekateter</IRI>
+        <Literal xml:lang="en">Hemodialysis catheter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hickman</IRI>
+        <Literal xml:lang="en">Hickman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hickman</IRI>
+        <Literal xml:lang="no">Hickman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hode</IRI>
+        <Literal xml:lang="en">Head</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hode</IRI>
+        <Literal xml:lang="no">Hode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hodepine</IRI>
+        <Literal xml:lang="en">Headache</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hodepine</IRI>
+        <Literal xml:lang="no">Hodepine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hofte</IRI>
+        <Literal xml:lang="en">Hip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hofte</IRI>
+        <Literal xml:lang="no">Hofte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hoven</IRI>
+        <Literal xml:lang="no">Hoven</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hoven</IRI>
+        <Literal xml:lang="en">Swollen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hud</IRI>
+        <Literal xml:lang="no">Hud</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hud</IRI>
+        <Literal xml:lang="en">Skin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hånd</IRI>
+        <Literal xml:lang="en">Hand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hånd</IRI>
+        <Literal xml:lang="no">Hånd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Håndledd</IRI>
+        <Literal xml:lang="no">Håndledd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Håndledd</IRI>
+        <Literal xml:lang="en">Wrist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IP_adresse</IRI>
+        <Literal xml:lang="en">IP address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IP_adresse</IRI>
+        <Literal xml:lang="no">IP_adresse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IV_antibiotika</IRI>
+        <Literal xml:lang="en">IV_antibiotics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IV_antibiotika</IRI>
+        <Literal xml:lang="no">IV_antibiotika</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IV_cellegift</IRI>
+        <Literal xml:lang="no">IV_cellegift</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IV_cellegift</IRI>
+        <Literal xml:lang="en">IV_chemo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IV_medisiner</IRI>
+        <Literal xml:lang="en">IV_medication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IV_medisiner</IRI>
+        <Literal xml:lang="no">IV_medisiner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IV_næringsstoff</IRI>
+        <Literal xml:lang="en">IV_nutrient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IV_næringsstoff</IRI>
+        <Literal xml:lang="no">IV_næringsstoff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IV_væske</IRI>
+        <Literal xml:lang="en">IV_liquid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IV_væske</IRI>
+        <Literal xml:lang="no">IV_væske</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IV_væsker</IRI>
+        <Literal xml:lang="en">IV_fluids</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IV_væsker</IRI>
+        <Literal xml:lang="no">IV_væsker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ikke_relatert_til_kateter</IRI>
+        <Literal xml:lang="no">Ikke_relatert_til_kateter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ikke_relatert_til_kateter</IRI>
+        <Literal xml:lang="en">Not_related_to_catheter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Infeksjon</IRI>
+        <Literal xml:lang="en">Infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Infeksjon</IRI>
+        <Literal xml:lang="no">Infeksjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Infeksjonsrelatert</IRI>
+        <Literal xml:lang="en">Infection_related</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Infeksjonsrelatert</IRI>
+        <Literal xml:lang="no">Infeksjonsrelatert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Infusjon</IRI>
+        <Literal xml:lang="en">Infusion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Infusjon</IRI>
+        <Literal xml:lang="no">Infusjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Injeksjon</IRI>
+        <Literal xml:lang="en">Injection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Injeksjon</IRI>
+        <Literal xml:lang="no">Injeksjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Innleggelse</IRI>
+        <Literal xml:lang="no">Innleggelse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Innleggelse</IRI>
+        <Literal xml:lang="en">Insertion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intradermalt_injeksjon</IRI>
+        <Literal xml:lang="en">Intradermal_injection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intradermalt_injeksjon</IRI>
+        <Literal xml:lang="no">Intradermalt_injeksjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intramuskulært_injeksjon</IRI>
+        <Literal xml:lang="en">Intramuscular_injection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intramuskulært_injeksjon</IRI>
+        <Literal xml:lang="no">Intramuskulært_injeksjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intraosseous_device</IRI>
+        <Literal xml:lang="en">Intraosseous cannula</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intraosseous_device</IRI>
+        <Literal xml:lang="no">Intraossøs_kanyle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intraossøs_infusjon</IRI>
+        <Literal xml:lang="en">Intraosseous_infusion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intraossøs_infusjon</IRI>
+        <Literal xml:lang="no">Intraossøs_infusjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intravenøst_infusjon</IRI>
+        <Literal xml:lang="en">Intravenous_infusion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intravenøst_infusjon</IRI>
+        <Literal xml:lang="no">Intravenøst_infusjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intravenøst_injeksjon</IRI>
+        <Literal xml:lang="en">Intravenous_injection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intravenøst_injeksjon</IRI>
+        <Literal xml:lang="no">Intravenøst_injeksjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kateter</IRI>
+        <Literal xml:lang="en">Catheter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kateter</IRI>
+        <Literal xml:lang="no">Kateter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kateter_prosedyre</IRI>
+        <Literal xml:lang="en">Catheter procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kateter_prosedyre</IRI>
+        <Literal xml:lang="no">Kateter_prosedyre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kateterrelatert</IRI>
+        <Literal xml:lang="en">Catheter_related</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kateterrelatert</IRI>
+        <Literal xml:lang="no">Kateterrelatert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kirurgi</IRI>
+        <Literal xml:lang="no">Kirurgi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kirurgi</IRI>
+        <Literal xml:lang="en">Surgery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kjøretøy_identifikator</IRI>
+        <Literal xml:lang="no">Kjøretøy_identifikator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kjøretøy_identifikator</IRI>
+        <Literal xml:lang="en">Vehicle_identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kløende</IRI>
+        <Literal xml:lang="en">Itchy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kløende</IRI>
+        <Literal xml:lang="no">Kløende</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kontonummer</IRI>
+        <Literal xml:lang="en">Account_number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kontonummer</IRI>
+        <Literal xml:lang="no">Kontonummer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kroppsdel</IRI>
+        <Literal xml:lang="en">Part of the human body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kroppsdel</IRI>
+        <Literal xml:lang="en">Body part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kroppsdel</IRI>
+        <Literal xml:lang="no">Kroppsdel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kroppstemp</IRI>
+        <Literal xml:lang="en">Body_temp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kroppstemp</IRI>
+        <Literal xml:lang="no">Kroppstemp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kroppstemperaturområde</IRI>
+        <Literal xml:lang="en">Temperature ranges:
+1. Hyperthermia (Hypertermi)
+2. Normal (Normal)
+3. Hypothermia (Hypotermi)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kroppstemperaturområde</IRI>
+        <Literal xml:lang="en">Body_temperature_range</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kroppstemperaturområde</IRI>
+        <Literal xml:lang="no">Kroppstemperaturområde</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kvalme</IRI>
+        <Literal xml:lang="no">Kvalme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kvalme</IRI>
+        <Literal xml:lang="en">Nausea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lab_result</IRI>
+        <Literal xml:lang="en">Lab_result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lab_result</IRI>
+        <Literal xml:lang="no">laboratorieresultat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lekkasje</IRI>
+        <Literal xml:lang="en">Leakage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lekkasje</IRI>
+        <Literal xml:lang="no">Lekkasje</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Leukocyte</IRI>
+        <Literal xml:lang="en">Leukocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Leukocyte</IRI>
+        <Literal xml:lang="no">Leukocytt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Limb</IRI>
+        <Literal xml:lang="en">Limb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Limb</IRI>
+        <Literal xml:lang="no">Limb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lår</IRI>
+        <Literal xml:lang="no">Lår</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lår</IRI>
+        <Literal xml:lang="en">Thigh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Midline</IRI>
+        <Literal xml:lang="en">Midline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Midline</IRI>
+        <Literal xml:lang="no">Midline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nav</IRI>
+        <Literal xml:lang="en">Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nav</IRI>
+        <Literal xml:lang="no">Nav</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Navle</IRI>
+        <Literal xml:lang="en">Navel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Navle</IRI>
+        <Literal xml:lang="no">Navle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Negasjon</IRI>
+        <Literal xml:lang="no">Negasjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Negasjon</IRI>
+        <Literal xml:lang="en">Negation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nekrose</IRI>
+        <Literal xml:lang="en">Necrosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nekrose</IRI>
+        <Literal xml:lang="no">Nekrose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nettadresse</IRI>
+        <Literal xml:lang="en">link to website</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nettadresse</IRI>
+        <Literal xml:lang="no">Nettadresse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nettadresse</IRI>
+        <Literal xml:lang="en">Web URL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nummer</IRI>
+        <Literal xml:lang="en">numerical values</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nummer</IRI>
+        <Literal xml:lang="en">Numeral (identifier)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nummer</IRI>
+        <Literal xml:lang="no">Numerisk (identifikator)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Observation</IRI>
+        <Literal xml:lang="no">Observasjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Observation</IRI>
+        <Literal xml:lang="en">Observation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Oral_medisinering</IRI>
+        <Literal xml:lang="en">Oral_medication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Oral_medisinering</IRI>
+        <Literal xml:lang="no">Oral_medisinering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Organdel</IRI>
+        <Literal xml:lang="en">Organ part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Organdel</IRI>
+        <Literal xml:lang="no">Organdel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Overarm</IRI>
+        <Literal xml:lang="no">Overarm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Overarm</IRI>
+        <Literal xml:lang="en">Upper arm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PICC</IRI>
+        <Literal xml:lang="en">PICC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PICC</IRI>
+        <Literal xml:lang="no">PICC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PID</IRI>
+        <Literal xml:lang="en">personal identifier numerical values</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PID</IRI>
+        <Literal xml:lang="no">PID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PID</IRI>
+        <Literal xml:lang="en">Personal_identifier_of_patient_in_Doculive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PIVC_device</IRI>
+        <Literal xml:lang="en">PIVC_device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PIVC_device</IRI>
+        <Literal xml:lang="no">PVK_enhet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PVK_relatert</IRI>
+        <Literal xml:lang="en">PIVC_related</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PVK_relatert</IRI>
+        <Literal xml:lang="no">PVK_relatert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pasient</IRI>
+        <Literal xml:lang="en">Person receiving care or registered for care</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pasient</IRI>
+        <Literal xml:lang="no">Pasient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pasient</IRI>
+        <Literal xml:lang="en">Patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pasientsymptom</IRI>
+        <Literal xml:lang="no">Pasientsymptom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pasientsymptom</IRI>
+        <Literal xml:lang="en">Patient symptom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Perifert_venekateter</IRI>
+        <Literal xml:lang="en">PIVC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Perifert_venekateter</IRI>
+        <Literal xml:lang="no">PVK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Perifert_venekateter</IRI>
+        <Literal xml:lang="no">Perifert_venekateter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Perifert_venekateter</IRI>
+        <Literal xml:lang="en">Peripheral intravenous catheter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="en">Human being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="en">Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="no">Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Person_data_property</IRI>
+        <Literal xml:lang="en">Person_data_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Person_data_property</IRI>
+        <Literal xml:lang="no">Person_data_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Person_har</IRI>
+        <Literal xml:lang="no">Person_har</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Person_har</IRI>
+        <Literal xml:lang="en">Person_has</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Physical_sign</IRI>
+        <Literal xml:lang="no">Fysisk_tegn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Physical_sign</IRI>
+        <Literal xml:lang="en">Physical_sign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Plassering</IRI>
+        <Literal xml:lang="en">Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Plassering</IRI>
+        <Literal xml:lang="no">Plassering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Plassering_data_property</IRI>
+        <Literal xml:lang="en">Location_data_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Plassering_data_property</IRI>
+        <Literal xml:lang="no">Plassering_data_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prosedyre</IRI>
+        <Literal xml:lang="en">Procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prosedyre</IRI>
+        <Literal xml:lang="no">Prosedyre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prosedyre_bruker</IRI>
+        <Literal xml:lang="en">Procedure_uses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prosedyre_bruker</IRI>
+        <Literal xml:lang="no">Prosedyre_bruker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prosedyre_data_property</IRI>
+        <Literal xml:lang="en">Procedure_data_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prosedyre_data_property</IRI>
+        <Literal xml:lang="no">Prosedyre_data_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Prøve-_eller_testnummer</IRI>
+        <Literal xml:lang="en">number given to specimens for lab testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prøve-_eller_testnummer</IRI>
+        <Literal xml:lang="no">Prøve-_eller_testnummer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prøve-_eller_testnummer</IRI>
+        <Literal xml:lang="en">Sample_or_test_number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Psykose</IRI>
+        <Literal xml:lang="en">Psychosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Psykose</IRI>
+        <Literal xml:lang="no">Psykose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Puls</IRI>
+        <Literal xml:lang="no">Puls</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Puls</IRI>
+        <Literal xml:lang="en">Pulse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pumpe</IRI>
+        <Literal xml:lang="en">Pump</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pumpe</IRI>
+        <Literal xml:lang="no">Pumpe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Purulens</IRI>
+        <Literal xml:lang="en">Purulence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Purulens</IRI>
+        <Literal xml:lang="no">Purulens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pus</IRI>
+        <Literal xml:lang="en">Pus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pus</IRI>
+        <Literal xml:lang="no">Pus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Radiology</IRI>
+        <Literal xml:lang="no">Radiologi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Radiology</IRI>
+        <Literal xml:lang="en">Radiology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Respirasjons_frekvens</IRI>
+        <Literal xml:lang="no">Respirasjons_frekvens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Respirasjons_frekvens</IRI>
+        <Literal xml:lang="en">Respiratory_rate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rygg</IRI>
+        <Literal xml:lang="en">Back</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rygg</IRI>
+        <Literal xml:lang="no">Rygg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rød</IRI>
+        <Literal xml:lang="en">Red</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rød</IRI>
+        <Literal xml:lang="no">Rød</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rør</IRI>
+        <Literal xml:lang="no">Rør</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rør</IRI>
+        <Literal xml:lang="en">Tubes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Selvpåført_injeksjon</IRI>
+        <Literal xml:lang="en">Self-inflicted_injection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Selvpåført_injeksjon</IRI>
+        <Literal xml:lang="no">Selvpåført_injeksjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Selvseponert</IRI>
+        <Literal xml:lang="en">Self removal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Selvseponert</IRI>
+        <Literal xml:lang="no">Selvseponert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sensitiv</IRI>
+        <Literal xml:lang="no">Sensitiv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sensitiv</IRI>
+        <Literal xml:lang="en">Sensitive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sensitv</IRI>
+        <Literal xml:lang="en">Identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sensitv</IRI>
+        <Literal xml:lang="no">Identifikator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sentralt_venekateter</IRI>
+        <Literal xml:lang="en">Central venous catheter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sentralt_venekateter</IRI>
+        <Literal xml:lang="no">Sentralt_venekateter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Seponert</IRI>
+        <Literal xml:lang="en">Discontinue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Seponert</IRI>
+        <Literal xml:lang="no">Seponert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sepsis</IRI>
+        <Literal xml:lang="en">Sepsis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sepsis</IRI>
+        <Literal xml:lang="no">Sepsis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Side_FB</IRI>
+        <Literal xml:lang="en">Front (foran) or back (bak) side of body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Side_FB</IRI>
+        <Literal xml:lang="en">Side_FB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Side_FB</IRI>
+        <Literal xml:lang="no">Side_FB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Side_VH</IRI>
+        <Literal xml:lang="en">Left (venstre) or right (høyre) side of the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Side_VH</IRI>
+        <Literal xml:lang="en">Side_LR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Side_VH</IRI>
+        <Literal xml:lang="no">Side_VH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Skrubbsår</IRI>
+        <Literal xml:lang="no">Skrubbsår</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Skrubbsår</IRI>
+        <Literal xml:lang="en">abrasion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Skylle</IRI>
+        <Literal xml:lang="en">Rinse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Skylle</IRI>
+        <Literal xml:lang="no">Skylle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Slektning</IRI>
+        <Literal xml:lang="en">Person related to patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Slektning</IRI>
+        <Literal xml:lang="en">Relative of the patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Slektning</IRI>
+        <Literal xml:lang="no">Slektning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Smerte</IRI>
+        <Literal xml:lang="en">Pain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Smerte</IRI>
+        <Literal xml:lang="no">Smerte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Smertepumpe</IRI>
+        <Literal xml:lang="en">Pain pump</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Smertepumpe</IRI>
+        <Literal xml:lang="no">Smertepumpe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Snittsår</IRI>
+        <Literal xml:lang="no">Snittsår</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Snittsår</IRI>
+        <Literal xml:lang="en">incision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Stikksår</IRI>
+        <Literal xml:lang="no">Stikksår</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Stikksår</IRI>
+        <Literal xml:lang="en">puncture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Subkutant_infusjon</IRI>
+        <Literal xml:lang="en">Subcutaneous_infusion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Subkutant_infusjon</IRI>
+        <Literal xml:lang="no">Subkutant_infusjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Subkutant_injeksjon</IRI>
+        <Literal xml:lang="en">Subcutaneous_injection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Subkutant_injeksjon</IRI>
+        <Literal xml:lang="no">Subkutant_injeksjon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Svimmel</IRI>
+        <Literal xml:lang="en">Dizziness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Svimmel</IRI>
+        <Literal xml:lang="no">Svimmel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sår</IRI>
+        <Literal xml:lang="no">Sår</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sår</IRI>
+        <Literal xml:lang="en">Wound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tegn</IRI>
+        <Literal xml:lang="en">Patient sign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tegn</IRI>
+        <Literal xml:lang="no">Tegn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tegn_data_property</IRI>
+        <Literal xml:lang="en">Sign_data_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tegn_data_property</IRI>
+        <Literal xml:lang="no">Tegn_data_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Telefonnummer</IRI>
+        <Literal xml:lang="no">Telefonnummer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Telefonnummer</IRI>
+        <Literal xml:lang="en">Telephone_number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tid_og_dato</IRI>
+        <Literal xml:lang="en">measurable period using hours, minutes, and days</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tid_og_dato</IRI>
+        <Literal xml:lang="no">Tid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tid_og_dato</IRI>
+        <Literal xml:lang="en">Time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Torso</IRI>
+        <Literal xml:lang="no">Torso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Torso</IRI>
+        <Literal xml:lang="en">Trunk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Treveiskran</IRI>
+        <Literal xml:lang="en">3-way_valve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Treveiskran</IRI>
+        <Literal xml:lang="no">Treveiskran</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Underarm</IRI>
+        <Literal xml:lang="en">Forearm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Underarm</IRI>
+        <Literal xml:lang="no">Underarm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VAS</IRI>
+        <Literal xml:lang="en">VAS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VAS</IRI>
+        <Literal xml:lang="no">VAS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Varm</IRI>
+        <Literal xml:lang="no">Varm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Varm</IRI>
+        <Literal xml:lang="en">Warm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ven</IRI>
+        <Literal xml:lang="en">Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ven</IRI>
+        <Literal xml:lang="no">Ven</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Venekateter</IRI>
+        <Literal xml:lang="no">Venekateter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Venekateter</IRI>
+        <Literal xml:lang="en">Venous catheter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ventiler</IRI>
+        <Literal xml:lang="en">Valves</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ventiler</IRI>
+        <Literal xml:lang="no">Ventiler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Vitale_Livstegn</IRI>
+        <Literal xml:lang="en">Vital_sign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Vitale_Livstegn</IRI>
+        <Literal xml:lang="no">Vitale_Livstegn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Væske</IRI>
+        <Literal xml:lang="en">Liquid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Væske</IRI>
+        <Literal xml:lang="no">Væske</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bevissthetsnivå</IRI>
+        <Literal xml:lang="en">Consciousness_level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bevissthetsnivå</IRI>
+        <Literal xml:lang="no">bevissthetsnivå</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#body_temp_hyperthemia</IRI>
+        <Literal xml:lang="no">body_temp_hypertermi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#body_temp_hyperthemia</IRI>
+        <Literal xml:lang="en">body_temp_hyperthermia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#e-post</IRI>
+        <Literal xml:lang="no">E-post</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#e-post</IRI>
+        <Literal xml:lang="en">Email</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hand_right</IRI>
+        <Literal xml:lang="en">hand_right</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hand_right</IRI>
+        <Literal xml:lang="no">hånd_høyre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#infusion_procedure</IRI>
+        <Literal xml:lang="en">infusion_procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#infusion_procedure</IRI>
+        <Literal xml:lang="no">infusjon_prosedyre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#infusjonssett</IRI>
+        <Literal xml:lang="en">Infusion Set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#infusjonssett</IRI>
+        <Literal xml:lang="no">infusjonssett</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#innstikksted</IRI>
+        <Literal xml:lang="en">Injection site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#innstikksted</IRI>
+        <Literal xml:lang="no">innstikksted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nevrologisk_og_fysiologisk</IRI>
+        <Literal xml:lang="en">Neurological_and_physiological_symptom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nevrologisk_og_fysiologisk</IRI>
+        <Literal xml:lang="no">nevrologisk_og_fysiologisk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#patient_person</IRI>
+        <Literal xml:lang="no">pasient_person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#patient_person</IRI>
+        <Literal xml:lang="en">patient_person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#red_sign</IRI>
+        <Literal xml:lang="en">red_sign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#red_sign</IRI>
+        <Literal xml:lang="no">rød_tegn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#swollen_sign</IRI>
+        <Literal xml:lang="no">hoven_tegn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#swollen_sign</IRI>
+        <Literal xml:lang="en">swollen_sign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ødem</IRI>
+        <Literal xml:lang="en">Edema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ødem</IRI>
+        <Literal xml:lang="no">Ødem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ømhet</IRI>
+        <Literal xml:lang="en">Sensitivity to pain; soreness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ømhet</IRI>
+        <Literal xml:lang="en">Tenderness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ømhet</IRI>
+        <Literal xml:lang="no">Ømhet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CRP;_C-reaktivt_protein</IRI>
+        <Literal xml:lang="en">C-reactive_protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CRP;_C-reaktivt_protein</IRI>
+        <Literal xml:lang="no">C-reaktivt_protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CRP;_C-reaktivt_protein</IRI>
+        <Literal xml:lang="en">CRP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CRP;_C-reaktivt_protein</IRI>
+        <Literal xml:lang="no">CRP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lokalisert_ved/på/i</IRI>
+        <Literal xml:lang="en">Located_nearby/on/in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lokalisert_ved/på/i</IRI>
+        <Literal xml:lang="no">Lokalisert_ved/på/i</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
